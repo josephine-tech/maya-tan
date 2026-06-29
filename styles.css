@@ -144,7 +144,7 @@ h1, h2, h3, h4 { font-family: var(--font-serif); font-weight: 600; line-height: 
     var(--white);
   overflow: hidden;
 }
-.hero__grid { display: grid; grid-template-columns: 1.05fr .95fr; gap: clamp(36px, 5vw, 72px); align-items: center; }
+.hero__grid { display: grid; grid-template-columns: 1.05fr .95fr; gap: clamp(36px, 5vw, 72px); align-items: start; }
 .hero__title { font-size: clamp(2.7rem, 6.6vw, 4.7rem); line-height: 1.02; margin-bottom: 24px; }
 .hero__sub { font-size: 1.2rem; color: var(--muted); max-width: 30em; margin-bottom: 36px; }
 .hero__actions { display: flex; flex-wrap: wrap; gap: 14px; margin-bottom: 30px; }
